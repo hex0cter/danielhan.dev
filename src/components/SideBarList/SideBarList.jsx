@@ -1,0 +1,16 @@
+import React from 'react'
+import SideBarItem from '../SideBarItem/SideBarItem'
+
+function SideBarList () {
+  return (
+    <div>
+      <SideBarItem url='/home' icon='home'>Home</SideBarItem>
+      <SideBarItem url='/CV' icon='copy'>CV</SideBarItem>
+      <SideBarItem url='https://hex0cter.github.io/notes/' icon='edit'>Quick note</SideBarItem>
+      <SideBarItem url='https://github.com/hex0cter/' icon='github'>GitHub</SideBarItem>
+      <SideBarItem url='https://www.linkedin.com/in/xdanielhan/' icon='linkedin'>LinkedIn</SideBarItem>
+    </div>
+  )
+}
+
+export default SideBarList

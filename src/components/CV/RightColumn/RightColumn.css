@@ -1,0 +1,10 @@
+.RightColumn {
+  width: calc(40% - 2em);
+}
+
+@media screen and (max-width: 671px) {
+  .RightColumn {
+    width: 100%;
+    max-width: 5000px;
+    }
+}

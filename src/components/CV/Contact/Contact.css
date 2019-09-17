@@ -1,0 +1,32 @@
+.Contact {
+  display: flex;
+  padding: 1em 0 0 0;
+  font-size: 13px;
+  justify-content: space-between;
+}
+
+.Contact > ul > li {
+  margin-left: -24px;
+}
+
+.contactCell > a {
+  text-decoration: none;
+  color: grey;
+}
+.contactCell {
+  display: flex;
+}
+
+.contactLink {
+  padding: 0 0 0 0.5em;
+}
+
+@media screen and (max-width: 696px) {
+  .contactLink {
+    display: none;
+  }
+  .contactIcon {
+    font-size: 20px;
+  }
+}
+

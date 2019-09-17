@@ -1,0 +1,26 @@
+.Burger {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  padding: 8px;
+  height: 30px;
+  text-align: center;
+  background-color:#41413f;
+  padding: 16px;
+  font-size: 1.4em;
+  float:left;
+}
+
+.bar {
+  width: 35px;
+  height: 2px;
+  background-color: white;
+  margin: 7px 0;
+  transition: 0.4s;
+}
+
+@media only print {
+  .Burger {
+    display: none;
+  }
+}

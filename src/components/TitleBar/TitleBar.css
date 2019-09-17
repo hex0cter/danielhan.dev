@@ -1,0 +1,30 @@
+.TitleBar {
+  background-color: #41413F;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  opacity: 0.8;
+}
+
+.title {
+  color: white;
+  line-height: 64px;
+  float:right;
+  padding-right: 1em;
+  font-weight: 400;
+  font-size: x-large;
+}
+
+@media only print {
+  .title {
+    color: black;
+    line-height: 64px;
+    float: left;
+    padding-left: 1.3em;
+    font-weight: 700;
+    font-size: x-large;
+    margin-right: 0px;
+  }
+}

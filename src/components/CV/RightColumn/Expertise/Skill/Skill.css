@@ -1,0 +1,42 @@
+.Skill {
+  padding: 0.2em 0 0.2em 0;
+}
+
+.SkillBar {
+  display: flex;
+  width: 100%;
+  font-size: x-small;
+}
+
+.SkillsTitle {
+  min-width: 144px;
+}
+
+.SkillMetricsDark {
+  font-family:  -webkit-pictograph, Monaco;
+  color: rgb(196, 202, 209);
+}
+
+
+.SkillMetricsLight {
+  font-family:  -webkit-pictograph, Monaco;
+  color: rgb(240, 241, 243);
+}
+
+@media screen and (min-width: 932px) {
+  .Skill {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
+
+@media screen and (max-width: 671px) and (min-width: 445px){
+  .Skill {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}

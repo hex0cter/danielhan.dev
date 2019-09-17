@@ -1,0 +1,12 @@
+.Language {
+  font-size: 13px;
+}
+
+.Language > ul > li {
+  margin-left: -24px;
+}
+
+.LanguageIcon {
+  font-size: 10px;
+  padding-right: 4px;
+}

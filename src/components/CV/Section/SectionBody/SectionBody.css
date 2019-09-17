@@ -1,0 +1,7 @@
+.SectionBody {
+  padding: 1em 0 0.5em 0;
+}
+
+.SectionBody > p {
+  margin: 0;
+}

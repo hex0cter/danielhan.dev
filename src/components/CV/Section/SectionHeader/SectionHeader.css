@@ -1,0 +1,6 @@
+.SectionHeader {
+  font-weight: 600;
+  text-transform: uppercase;
+  border-bottom: solid 2px #3f3f3f;
+  font-size: large;
+}

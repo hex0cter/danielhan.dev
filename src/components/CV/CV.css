@@ -1,0 +1,58 @@
+.CV {
+  margin: 100px 2em 1em 2em;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.Subtitle {
+  margin: 60px 2em 1em 2em;
+  display: none;
+  color: #b6b3b3;
+  font-weight: bolder;
+}
+
+@media only print {
+  .Subtitle {
+    display: block;
+  }
+}
+
+@media only print {
+  .CV {
+    margin-top: 64px;
+  }
+}
+
+.address {
+  border-top: solid 1px black;
+  padding-bottom: 1em;
+  margin: 0 2em 0 2em;
+}
+
+.floatingIcon {
+  display: flex;
+  width: 32px;
+  height: 32px;
+  background-color:dimgray;
+  position: fixed;
+  right: 20px;
+  bottom: 40px;
+  cursor: pointer;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  visibility: visible;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -webkit-transform: translate(-50%, -50%);
+}
+
+@media only print {
+  .floatingIcon {
+    display: none;
+  }
+}

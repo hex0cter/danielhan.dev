@@ -1,0 +1,21 @@
+.sideBarTitle {
+  height: 32px;
+  text-align: center;
+  vertical-align: middle;
+  background-color:#333131;
+  color: white;
+  padding: 16px;
+  font-size: 1.4em;
+  width: 180px;
+}
+
+.SideBarLinks {
+	padding: 16px;
+	height: calc(100% - 48px);
+	background-color: white;
+}
+
+.MySiderBar {
+  height: calc(100% - 48px);
+  z-index: 600;
+}

@@ -1,0 +1,12 @@
+/* width of A4 paper: 695 px, 695 - 2em = 671px */
+.LeftColumn {
+  width: 60%;
+  margin-right: 2em;
+}
+
+@media screen and (max-width: 671px) {
+  .LeftColumn {
+    width: 100%;
+    margin-right: 0;
+  }
+}
