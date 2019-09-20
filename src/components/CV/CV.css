@@ -16,6 +16,7 @@
 @media only print {
   .Subtitle {
     display: block;
+    color: rgb(33, 154, 200);
   }
 }
 

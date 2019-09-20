@@ -18,6 +18,7 @@
 }
 .companyIcon {
   padding-right: 0.5em;
+  color: rgb(28, 64, 141);
 }
 
 .jobTitle {
@@ -39,4 +40,10 @@
 .ExperienceTitle {
   display: flex;
   flex-direction: row;
+}
+
+@media only print {
+  .companyName > a {
+    color: rgb(33, 154, 200);
+  }
 }

@@ -27,4 +27,7 @@
     font-size: x-large;
     margin-right: 0px;
   }
+  .TitleBar {
+    background-color: rgba(255, 0, 0, 0);
+  }
 }

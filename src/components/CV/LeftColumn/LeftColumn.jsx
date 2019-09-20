@@ -16,16 +16,16 @@ class LeftColumn extends React.Component {
             to='PRESENT'
             company='Klarna'
             link='https://www.klarna.com/'
-            title='Software Engineer'>
+            title='Test Automation/DevOps Engineer'>
             Developed the automated end2end test framework for Klarna payment solution. Developed the web shop tool for manual system verification. Developed Klarna Payments Client and its release pipeline.
           </Experience>
 
           <Experience
             from='2013'
             to='2015'
-            company='Giesecke & Devrient'
+            company='G&D'
             link='https://www.gi-de.com/'
-            title='QA/Tooling Engineer'>
+            title='Test Automation Engineer'>
             Implemented and maintained the auto test framework for NFC Enabler. Designed and implemented the performance test framework. Designed and implemented the test automation tool for SIM Certification.
           </Experience>
 

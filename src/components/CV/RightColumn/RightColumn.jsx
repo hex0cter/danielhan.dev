@@ -13,8 +13,8 @@ class RightColumn extends React.Component {
           <Language />
         </Section>
         <Section header='Education'>
-          <Education>Northwestern Polytechnic University, Master in Software Engineering, 2005</Education>
-          <Education>Northwestern Polytechnic University, Bachelor in Computer Science, 2002</Education>
+          <Education><span role="img" aria-label="scholar">🎓</span>Northwestern Polytechnic University, Master in Software Engineering, 2005</Education>
+          <Education><span role="img" aria-label="scholar">🎓</span>Northwestern Polytechnic University, Bachelor in Computer Science, 2002</Education>
         </Section>
         <Section header='Expertise'>
           <Expertise />
