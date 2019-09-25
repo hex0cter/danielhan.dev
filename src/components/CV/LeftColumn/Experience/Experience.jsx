@@ -7,7 +7,7 @@ class Experience extends React.Component {
     return (
       <div className='Experience'>
         <div className='ExperienceTitle'>
-          <div className="companyIcon"><Icon type="link" style={{ color: '#3d4677' }}/></div>
+          <div className="companyIcon"><Icon type="link" style={{ color: '#2d66a7' }}/></div>
           <div className='companyName'><a href={this.props.link} target='_blank' rel="noopener noreferrer">{this.props.company}</a></div>
           <div className='jobTitle'>{this.props.title}</div>
         </div>
