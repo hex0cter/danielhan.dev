@@ -14,7 +14,7 @@ class Home extends React.Component {
           <p>I work with containers based cloud services on a daily basis. And I am comfortable programming with C++, Java, Javascript, Python, Ruby, Bash, etc. </p>
           <p>Currently I am actively working with Ruby, Javascript, Docker, Kubernetes, Amazon Web Services (AWS), Jenkins, React, Selenium, TestCafe, Cucumber, etc.</p>
         </div>
-        <div className='footer'>Powered by React. Created by Daniel Han &copy;</div>
+        <div className='footer'>All rights reserved by Daniel Han.</div>
       </div>
     )
   }
