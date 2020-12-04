@@ -7,16 +7,21 @@ class LeftColumn extends React.Component {
   render () {
     return (
       <div className='LeftColumn'>
-        <Section header='Mission'>
-          <p>To create software that solves difficult problems, make tools that simplify people's daily work, and build solutions that enable the rapid software delivery pipeline.</p>
-        </Section>
-        <Section header='Experience'>
+        <Section header='Professional Experience'>
+          <Experience
+            from='2020.1'
+            to='PRESENT'
+            company='Scrive'
+            link='https://scrive.com/'
+            title='Test Automation Engineer'>
+            Worked with the End to End Tests, API Test, Load Tests, Frontend Test, and Mobile Tests of different Scrive products.
+          </Experience>
           <Experience
             from='2015'
-            to='PRESENT'
+            to='2020'
             company='Klarna'
             link='https://www.klarna.com/'
-            title='Test Automation/DevOps Engineer'>
+            title='Test Automation/DevOps Eng.'>
             Developed the automated end2end test framework for Klarna payment solution. Developed the web shop tool for manual system verification. Developed Klarna Payments Client and its release pipeline.
           </Experience>
 

@@ -2,6 +2,14 @@
   width: calc(40% - 2em);
 }
 
+.SummaryDetails {
+  font-size: 15px;
+}
+
+.SectionDetails {
+  font-size: small;
+}
+
 @media screen and (max-width: 671px) {
   .RightColumn {
     width: 100%;

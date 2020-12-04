@@ -7,22 +7,35 @@
 }
 
 .Subtitle {
-  margin: 60px 2em 1em 2em;
   display: none;
-  color: #b6b3b3;
-  font-weight: bolder;
+}
+
+.Location {
+  display: none;
+}
+
+.TelephoneIcon {
+  color: rgb(230, 94, 31);
 }
 
 @media only print {
   .Subtitle {
+    margin: 60px 2em 0.5em 2em;
     display: block;
-    color: rgb(33, 154, 200);
+    color: #5f5f5f;
+    font-weight: bolder;
+  }
+  .Location {
+    margin: 0 0 3em 3.2em;
+    display: block;
+    color: #5f5f5f;
+    font-size: x-small;
   }
 }
 
 @media only print {
   .CV {
-    margin-top: 64px;
+    margin-top: 24px;
   }
 }
 

@@ -10,7 +10,8 @@ class CV extends React.Component {
   render () {
     return (
       <div>
-        <div className='Subtitle'>Tooling, Automation, DevOps, Frontend Engineer</div>
+        <div className='Subtitle'>Tooling, Automation Engineer</div>
+        <div className='Location'>Stockholm, Sweden. <span className="TelephoneIcon">☎︎</span> +46-7-0033-1108</div>
         <div id='cv' className='CV'>
           <LeftColumn/>
           <RightColumn/>
