@@ -8,7 +8,8 @@ class LeftColumn extends React.Component {
     return (
       <div className='LeftColumn'>
         <Section header='Summary'>
-          <p className='SummaryDetails'>Passionate software engineer with a focus of Test Automation, Tooling and DevOps. Enjoys creating solutions that resolves difficult problems, making softwares that simplify people's daily work. A great team player.</p>
+          <p className='SummaryDetails'>Passionate software engineer with a focus of Test Automation, Tooling and DevOps. Enjoys creating solutions that resolves difficult problems, making softwares that simplify people's daily work. </p>
+          <p className='SummaryDetails'>A quick learner and great team player.</p>
         </Section>
         <Section header='Professional Experience'>
           <Experience
@@ -17,14 +18,14 @@ class LeftColumn extends React.Component {
             company='Scrive'
             link='https://scrive.com/'
             title='Test Automation Engineer'>
-            Worked with the End to End Tests, API Test, Load Tests, Frontend Test, and Mobile Tests of different Scrive products.
+            Created the End to End Tests, API Test, Load Tests, Frontend Test, and Mobile Tests from scratch for various Scrive products.
           </Experience>
           <Experience
             from='2015'
             to='2020'
             company='Klarna'
             link='https://www.klarna.com/'
-            title='Test Automation/DevOps Eng.'>
+            title='Test Automation/DevOps Engineer'>
             Developed the automated end2end test framework for Klarna payment solution. Developed the web shop tool for manual system verification. Developed Klarna Payments Client and its release pipeline.
           </Experience>
 

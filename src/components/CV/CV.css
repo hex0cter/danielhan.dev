@@ -26,10 +26,10 @@
     font-weight: bolder;
   }
   .Location {
-    margin: 0 0 3em 3.2em;
+    margin: 0 0 3em 2.6em;
     display: block;
     color: #5f5f5f;
-    font-size: x-small;
+    font-size: small;
   }
 }
 

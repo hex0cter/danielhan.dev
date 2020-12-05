@@ -15,7 +15,11 @@
 .companyName > a {
   text-decoration: none;
   color: black;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
+
 .companyIcon {
   padding-right: 0.5em;
   color: rgb(28, 64, 141);
@@ -25,6 +29,9 @@
   text-transform: uppercase;
   color: #5f5f5f;
   padding-bottom: 0.1em;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .Experience {
