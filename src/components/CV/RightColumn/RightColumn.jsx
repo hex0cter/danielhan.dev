@@ -9,9 +9,6 @@ class RightColumn extends React.Component {
   render () {
     return (
       <div className='RightColumn'>
-        <Section header='Summary'>
-          <p className='SummaryDetails'>Passionate software engineer with a focus of Test Automation, Tooling and DevOps. Enjoys creating solutions that resolves difficult problems, making softwares that simplify people's daily work. A great team player.</p>
-        </Section>
         <Section header='Expertise'>
           <Expertise />
         </Section>

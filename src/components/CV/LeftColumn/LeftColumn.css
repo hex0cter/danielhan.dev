@@ -4,6 +4,10 @@
   margin-right: 2em;
 }
 
+.SummaryDetails {
+  font-size: 15px;
+}
+
 @media screen and (max-width: 671px) {
   .LeftColumn {
     width: 100%;
