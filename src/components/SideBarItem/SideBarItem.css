@@ -9,6 +9,13 @@
   color: #333131;
 }
 
+
+.SideBarLink > a:hover{
+  text-decoration: none;
+  color: #173385;
+}
+
+
 .SideBarIcon {
   font-size: '23px';
   padding-right: '10px';

@@ -8,7 +8,7 @@ class LeftColumn extends React.Component {
     return (
       <div className='LeftColumn'>
         <Section header='Summary'>
-          <p className='SummaryDetails'>Passionate software engineer with a focus of Test Automation, Tooling and DevOps. Enjoys creating solutions that resolves difficult problems, making softwares that simplify people's daily work. </p>
+          <p className='SummaryDetails'>Passionate software engineer with a focus on Test Automation, Tooling and DevOps. Enjoys creating solutions that resolves difficult problems, making softwares that simplify people's daily work. </p>
           <p className='SummaryDetails'>A quick learner and great team player.</p>
         </Section>
         <Section header='Professional Experience'>
