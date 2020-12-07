@@ -18,7 +18,7 @@ class LeftColumn extends React.Component {
             company='Scrive'
             link='https://scrive.com/'
             title='Test Automation Engineer'>
-            Created the End to End Tests, API Test, Load Tests, Frontend Test, and Mobile Tests from scratch for various Scrive products.
+            Developed the End to End Tests, API Test, Load Tests, Frontend Test, and Mobile Tests from scratch for various Scrive products.
           </Experience>
           <Experience
             from='2015'

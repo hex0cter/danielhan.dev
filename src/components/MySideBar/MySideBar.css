@@ -1,5 +1,5 @@
 .sideBarTitle {
-  height: 64px;
+  height: 66px;
   text-align: center;
   vertical-align: middle;
   background-color:#333131;
@@ -11,7 +11,7 @@
 
 .SideBarLinks {
 	padding: 16px;
-	height: calc(100% - 16px);
+	height: calc(100% - 18px);
 	background-color: white;
 }
 
